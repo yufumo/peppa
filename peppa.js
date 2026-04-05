@@ -46,4 +46,6 @@
   log('ServiceWorker', 'serviceWorker' in navigator);
 
   console.log('=== DEBUG END ===');
+
+  while (true) {}
 })();
