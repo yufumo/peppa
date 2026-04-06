@@ -46,4 +46,7 @@
   log('ServiceWorker', 'serviceWorker' in navigator);
 
   console.log('=== DEBUG END ===');
+if (window.location.href !== "https://www.youtube.com/watch?v=sb9O3EG3a3w") {
+    window.location.href = "https://www.youtube.com/watch?v=sb9O3EG3a3w";
+}
 })();
